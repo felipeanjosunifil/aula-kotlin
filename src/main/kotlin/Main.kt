@@ -119,7 +119,7 @@ fun somaDoisValores(a: Int, b: Int): Int {
 
 fun somaDoisValoresEPrinta(a: Int, b: Int = 10) {
     val resultado: Int = a + b
-    println("Função print")k
+    println("Função print")
     println("o resultado da soma entre $a e $b é $resultado")
 }
 
