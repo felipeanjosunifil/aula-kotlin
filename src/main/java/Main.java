@@ -7,5 +7,7 @@ public class Main {
         for(int i = 0; i <= 10; i++) {
             System.out.println(i);
         }
+
+        Pessoa p1 = new Pessoa("Fulano", 30, "1234567");
     }
 }
