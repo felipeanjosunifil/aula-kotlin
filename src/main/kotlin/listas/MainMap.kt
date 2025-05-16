@@ -7,7 +7,7 @@ fun main() {
 
     diasNoMes.put("Abril", 30)
 
-    val mesesCom31 = diasNoMes.filter { t -> t.value == 31}
+    val mesesCom31 = diasNoMes.filter { (mes, qtdDias) -> qtdDias == 31} //filtra map para deixar meses com apenas 31 dias
 
     println(diasNoMes["Abril"])
 
