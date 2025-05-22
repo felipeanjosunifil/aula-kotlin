@@ -2,6 +2,9 @@ package org.example.poo
 
 class Pessoa(nome: String, idade: Int, documento: String) {
     var nome: String
+        get() = "O nome é $field"
+        private set
+
     var idade: Int
     var documento: String
 
