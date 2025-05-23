@@ -27,5 +27,7 @@ public class Main {
         for(int i = 1; i <= 10; i++) {
             System.out.println(i);
         }
+
+        Pessoa p1 = new Pessoa("Fulano", 20, "123546789-00");
     }
 }
